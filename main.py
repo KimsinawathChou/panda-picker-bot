@@ -55,7 +55,7 @@ async def log_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 def main() -> None:
     """Run the bot."""
-    application = Application.builder().token("7338894408:AAFsZB-pSibo4UMytDSxBkcLfoAqQbQcxAQ").build()
+    application = Application.builder().token("7901123954:AAErTOKfnjGPSgb1tcR1VJYB-68O1GzVdgk").build()
 
     # Handle the case when a user sends /start
     application.add_handler(CommandHandler('start', start))
@@ -67,3 +67,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+
+#7338894408:AAFsZB-pSibo4UMytDSxBkcLfoAqQbQcxAQ
